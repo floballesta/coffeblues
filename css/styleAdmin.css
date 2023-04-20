@@ -1,0 +1,114 @@
+body {
+    background-image: url("./grisbleu_old.jpg");
+    background-attachment: fixed;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#corps {
+    padding-bottom: 70px;
+}
+
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#imgConstruct {
+    width: 800px;
+    height: auto;
+}
+
+#mesimages img {
+    height: auto;
+    width: 200px;
+    max-width: 200px;
+}
+
+.responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bordure {
+    border: thick double #A68D10;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-title a:link {
+    text-decoration: underline;
+    color: #17255E;
+}
+
+.card-title a:visited {
+    color: #17255E;
+}
+
+.card-title a:hover,
+.card-title a:focus,
+.card-title a:active {
+    text-decoration: none;
+    color: #173beb;
+}
+
+.lien a:link {
+    text-decoration: none;
+    color: #17255E;
+}
+
+.lien a:visited {
+    text-decoration: none;
+    color: #17255E;
+}
+
+.lien a:hover,
+.lien a:focus,
+.lien a:active {
+    text-decoration: none;
+    color: #173beb;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#img-affiche {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.blues-text {
+    color: #180199;
+}
